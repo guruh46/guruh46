@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  guruh46:
+    image: guruh46
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 7000:7000
