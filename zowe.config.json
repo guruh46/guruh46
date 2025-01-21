@@ -1,0 +1,72 @@
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "zosmf": {
+            "type": "zosmf",
+            "properties": {
+                "port": 443
+            }
+        },
+        "tso": {
+            "type": "tso",
+            "properties": {
+                "account": "",
+                "codePage": "1047",
+                "logonProcedure": "IZUFPROC"
+            }
+        },
+        "ssh": {
+            "type": "ssh",
+            "properties": {
+                "port": 22
+            }
+        },
+        "rse": {
+            "type": "rse",
+            "properties": {
+                "port": 6800,
+                "basePath": "rseapi",
+                "protocol": "https"
+            }
+        },
+        "zOpenDebug": {
+            "type": "zOpenDebug",
+            "properties": {
+                "dpsPort": 8143,
+                "dpsContextRoot": "api/v1",
+                "dpsSecured": true,
+                "authenticationType": "token",
+                "uuid": "7b318abe-b3a9-4db0-bd33-476fce0d3c0a"
+            }
+        },
+        "zftp": {
+            "type": "zftp",
+            "properties": {
+                "port": 21,
+                "secureFtp": true
+            }
+        },
+        "cics": {
+            "type": "cics",
+            "properties": {}
+        },
+        "project_base": {
+            "type": "base",
+            "properties": {
+                "host": "",
+                "rejectUnauthorized": true
+            }
+        }
+    },
+    "defaults": {
+        "zosmf": "zosmf",
+        "tso": "tso",
+        "ssh": "ssh",
+        "rse": "rse",
+        "zOpenDebug": "zOpenDebug",
+        "zftp": "zftp",
+        "cics": "cics",
+        "base": "project_base"
+    },
+    "autoStore": false
+}
