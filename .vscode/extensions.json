@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "zowe.cics-extension-for-zowe",
+        "zowe.secrets-for-kubernetes",
+        "zowe.vscode-extension-for-zowe",
+        "zowe.zowe-explorer-ftp-extension",
+        "ibm.zopeneditor"
+    ]
+}
