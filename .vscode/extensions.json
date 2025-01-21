@@ -4,6 +4,10 @@
         "zowe.secrets-for-kubernetes",
         "zowe.vscode-extension-for-zowe",
         "zowe.zowe-explorer-ftp-extension",
-        "ibm.zopeneditor"
+        "ibm.zopeneditor",
+        "golang.go",
+        "prisma.prisma",
+        "prisma.prisma-insider",
+        "prisma.vscode-graphql"
     ]
 }
